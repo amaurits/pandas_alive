@@ -36,6 +36,7 @@ def geoplot(
     basemap_format: typing.Dict = None,
     enable_markersize: bool = False,
     scale_markersize: float = 1,
+    use_dfcolors: bool = False,
     **kwargs,
 ):
     """
@@ -72,6 +73,7 @@ def geoplot(
         basemap_format=basemap_format,
         enable_markersize=enable_markersize,
         scale_markersize=scale_markersize,
+        use_dfcolors=use_dfcolors,
         kwargs=kwargs,
     )
     if filename:
